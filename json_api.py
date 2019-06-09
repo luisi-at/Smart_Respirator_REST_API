@@ -2,6 +2,7 @@
 
 import json
 from flask import Flask
+from flask import jsonify
 from flask_restful import Api, Resource, reqparse
 
 app = Flask(__name__)
@@ -30,9 +31,9 @@ data = [
 class PollutionData(Resource):
 
     def get(self):
-        jsonString = json.dumps(data) # Write data to string in memory
+        #jsonString = json.dumps(data) # Write data to string in memory
 
-        return jsonString, 200
+        return jsonify(data), 200
 
     def post(self):
         parser = reqparse.RequestParser()
