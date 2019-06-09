@@ -10,7 +10,8 @@ api = Api(app)
 
 # Need to figure out how to store the data
 
-data = [
+data =
+[
     {
         "airQualityEstimate": 120,
         "latitude": 51.491331,
@@ -31,7 +32,7 @@ data = [
 class PollutionData(Resource):
 
     def get(self):
-        jsonString = json.dumps(data, sort_keys = True) # Write data to string in memory
+        #jsonString = json.dumps(data, sort_keys=True) # Write data to string in memory
 
         return data, 200
 
@@ -49,8 +50,8 @@ class PollutionData(Resource):
         }
 
         data.append(pollutionPoint)
-        jsonString = json.dumps(data) # Write data to string in memory
-        return jsonString, 201
+
+        return data, 201
 
 
 
