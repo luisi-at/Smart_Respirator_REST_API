@@ -54,4 +54,4 @@ class PollutionData(Resource):
 
 
 api.add_resource(PollutionData, "/data")
-app.run(debug=True)
+app.run(host='192.168.206')
