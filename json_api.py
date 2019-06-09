@@ -10,8 +10,7 @@ api = Api(app)
 
 # Need to figure out how to store the data
 
-data =
-[
+data = [
     {
         "airQualityEstimate": 120,
         "latitude": 51.491331,
