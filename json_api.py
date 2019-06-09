@@ -11,19 +11,19 @@ api = Api(app)
 
 data = [
     {
-        "airQualityEstimate": 10,
-        "latitude": 51,
-        "longitude": 0
+        "airQualityEstimate": 120,
+        "latitude": 51.491331,
+        "longitude": -0.191679
     },
     {
-        "airQualityEstimate": 101,
-        "latitude": 51.5,
-        "longitude": 0.6
+        "airQualityEstimate": 160,
+        "latitude": 51.491634,
+        "longitude": -0.192083
     },
     {
         "airQualityEstimate": 200,
-        "latitude": 51.6,
-        "longitude": -0.4
+        "latitude": 51.492451,
+        "longitude": -0.190642
     }
 ]
 
