@@ -31,9 +31,9 @@ data = [
 class PollutionData(Resource):
 
     def get(self):
-        #jsonString = json.dumps(data) # Write data to string in memory
+        jsonString = json.dumps(data) # Write data to string in memory
 
-        return jsonify(data), 200
+        return data, 200
 
     def post(self):
         parser = reqparse.RequestParser()
