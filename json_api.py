@@ -54,4 +54,4 @@ class PollutionData(Resource):
 
 
 api.add_resource(PollutionData, "/data")
-app.run(host='0.0.0.0')
+app.run(host='192.168.1.206',port=5000)
