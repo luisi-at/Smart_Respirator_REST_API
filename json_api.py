@@ -31,7 +31,7 @@ data = [
 class PollutionData(Resource):
 
     def get(self):
-        jsonString = json.dumps(data) # Write data to string in memory
+        jsonString = json.dumps(data, sort_keys = True) # Write data to string in memory
 
         return data, 200
 
