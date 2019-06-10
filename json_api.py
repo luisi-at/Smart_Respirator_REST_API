@@ -50,7 +50,7 @@ class PollutionDataAll(Resource):
         parser.add_argument('airQualityEstimate', type=int)
         parser.add_argument('latitude', type=float)
         parser.add_argument('longitude', type=float)
-        parser.add_argument('dateTaken', type=string)
+        parser.add_argument('dateTaken')
         args = parser.parse_args()
 
         pollutionPoint = {
