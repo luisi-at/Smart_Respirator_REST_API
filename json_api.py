@@ -101,5 +101,5 @@ class PollutionDataByDate(Resource):
 
 api.add_resource(PollutionDataAll, "/data")
 api.add_resource(PollutionDataByDate, "/data/<string:date>") # Query by the date sent from the app
-#app.run(host='192.168.1.206',port=5000)
-app.run(debug=True)
+app.run(host='192.168.1.206',port=5000)
+#app.run(debug=True)
