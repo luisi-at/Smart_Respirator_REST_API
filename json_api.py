@@ -38,8 +38,8 @@ class PollutionData(Resource):
     def post(self):
         parser = reqparse.RequestParser()
         parser.add_argument('airQualityEstimate', type=int)
-        parser.add_argument('latitude', type=double)
-        parser.add_argument('longitude', type=double)
+        parser.add_argument('latitude', type=float)
+        parser.add_argument('longitude', type=float)
         args = parser.parse_args()
 
         pollutionPoint = {
