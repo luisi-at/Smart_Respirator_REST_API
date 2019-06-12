@@ -17,25 +17,25 @@ data = [
         "airQualityEstimate": 120,
         "latitude": 51.491331,
         "longitude": -0.191679,
-        "dateTaken": "2019-06-09T0:0:0+0000"
+        "dateTaken": "2019-06-11T0:0:0+0000"
     },
     {
         "airQualityEstimate": 160,
         "latitude": 51.491634,
         "longitude": -0.192083,
-        "dateTaken": "2019-06-09T0:0:0+0000"
+        "dateTaken": "2019-06-11T0:0:0+0000"
     },
     {
         "airQualityEstimate": 200,
         "latitude": 51.492451,
         "longitude": -0.190642,
-        "dateTaken": "2019-06-09T0:0:0+0000"
+        "dateTaken": "2019-06-11T0:0:0+0000"
     },
     {
         "airQualityEstimate": 200,
         "latitude": 51.492451,
         "longitude": -0.190642,
-        "dateTaken": "2019-06-10T0:0:0+0000"
+        "dateTaken": "2019-06-12T0:0:0+0000"
     }
 ]
 
