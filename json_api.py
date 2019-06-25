@@ -82,13 +82,13 @@ data = [
     {
         "airQualityEstimate": 250,
         "latitude": 51.480947,
-        "longitude": -0.0188308,
+        "longitude": -0.188308,
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
         "airQualityEstimate": 220,
         "latitude": 51.480319,
-        "longitude": -0.0189285,
+        "longitude": -0.189285,
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
