@@ -102,7 +102,7 @@ data = [
         "latitude": 51.480021,
         "longitude": -0.195592,
         "dateTaken": "2019-06-24T0:0:0+0000"
-    },
+    }
 ]
 
 class PollutionDataAll(Resource):
