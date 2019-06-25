@@ -15,6 +15,12 @@ api = Api(app)
 data = [
     {
         "airQualityEstimate": 120,
+        "latitude": 51.492451,
+        "longitude": -0.190642,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 120,
         "latitude": 51.491331,
         "longitude": -0.191679,
         "dateTaken": "2019-06-24T0:0:0+0000"
@@ -26,51 +32,51 @@ data = [
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
-        "airQualityEstimate": 120,
-        "latitude": 51.492451,
-        "longitude": -0.190642,
-        "dateTaken": "2019-06-24T0:0:0+0000"
-    },
-    {
         "airQualityEstimate": 50,
         "latitude": 51.490071,
         "longitude": -0.190623,
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
-        "airQualityEstimate": 65,
+        "airQualityEstimate": 40,
         "latitude": 51.489139,
         "longitude": -0.190070,
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
-        "airQualityEstimate": 100,
+        "airQualityEstimate": 42,
         "latitude": 51.486871,
         "longitude": -0.187650,
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
-        "airQualityEstimate": 100,
+        "airQualityEstimate": 45,
         "latitude": 51.484584,
         "longitude": -0.184878,
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
-        "airQualityEstimate": 200,
+        "airQualityEstimate": 60,
         "latitude": 51.484154,
         "longitude": -0.184273,
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
-        "airQualityEstimate": 250,
+        "airQualityEstimate": 120,
         "latitude": 51.482984,
         "longitude": -0.185972,
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
-        "airQualityEstimate": 250,
-        "latitude": 51.48192,
-        "longitude": -0.187172,
+        "airQualityEstimate": 135,
+        "latitude": 51.482177,
+        "longitude": -0.186895,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 120,
+        "latitude": 51.481300,
+        "longitude": -0.187808,
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
@@ -92,13 +98,13 @@ data = [
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
-        "airQualityEstimate": 300,
+        "airQualityEstimate": 250,
         "latitude": 51.480074,
         "longitude": -0.194678,
         "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
-        "airQualityEstimate": 330,
+        "airQualityEstimate": 250,
         "latitude": 51.480021,
         "longitude": -0.195592,
         "dateTaken": "2019-06-24T0:0:0+0000"
@@ -163,4 +169,4 @@ class PollutionDataByDate(Resource):
 api.add_resource(PollutionDataAll, "/data")
 api.add_resource(PollutionDataByDate, "/data/<string:date>") # Query by the date sent from the app
 app.run(host='192.168.1.206',port=5000)
-#app.run(debug=True)
+app.run(debug=True)
