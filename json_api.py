@@ -17,26 +17,92 @@ data = [
         "airQualityEstimate": 120,
         "latitude": 51.491331,
         "longitude": -0.191679,
-        "dateTaken": "2019-06-11T0:0:0+0000"
+        "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
         "airQualityEstimate": 160,
         "latitude": 51.491634,
         "longitude": -0.192083,
-        "dateTaken": "2019-06-11T0:0:0+0000"
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 120,
+        "latitude": 51.492451,
+        "longitude": -0.190642,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 50,
+        "latitude": 51.490071,
+        "longitude": -0.190623,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 65,
+        "latitude": 51.489139,
+        "longitude": -0.190070,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 100,
+        "latitude": 51.486871,
+        "longitude": -0.187650,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 100,
+        "latitude": 51.484584,
+        "longitude": -0.184878,
+        "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
         "airQualityEstimate": 200,
-        "latitude": 51.492451,
-        "longitude": -0.190642,
-        "dateTaken": "2019-06-11T0:0:0+0000"
+        "latitude": 51.484154,
+        "longitude": -0.184273,
+        "dateTaken": "2019-06-24T0:0:0+0000"
     },
     {
-        "airQualityEstimate": 200,
-        "latitude": 51.492451,
-        "longitude": -0.190642,
-        "dateTaken": "2019-06-12T0:0:0+0000"
-    }
+        "airQualityEstimate": 250,
+        "latitude": 51.482984,
+        "longitude": -0.185972,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 250,
+        "latitude": 51.48192,
+        "longitude": -0.187172,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 250,
+        "latitude": 51.480947,
+        "longitude": -0.0188308,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 220,
+        "latitude": 51.480319,
+        "longitude": -0.0189285,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 280,
+        "latitude": 51.480193,
+        "longitude": -0.191610,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 300,
+        "latitude": 51.480074,
+        "longitude": -0.194678,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
+    {
+        "airQualityEstimate": 330,
+        "latitude": 51.480021,
+        "longitude": -0.195592,
+        "dateTaken": "2019-06-24T0:0:0+0000"
+    },
 ]
 
 class PollutionDataAll(Resource):
@@ -91,11 +157,6 @@ class PollutionDataByDate(Resource):
 
         # Otherwise return the array and the status code
         return returnData, 200
-
-
-
-
-
 
 
 
